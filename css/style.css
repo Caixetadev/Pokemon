@@ -22,3 +22,15 @@ img {
 li {
   background: #FFEB3B !important;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  margin: 0 50px;
+  background: #FFEB3B;
+  padding: 10px 20px;
+  cursor: pointer
+}
