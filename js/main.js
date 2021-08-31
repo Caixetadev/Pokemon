@@ -1,5 +1,5 @@
-// const next = document.getElementById('next')
-// const prev = document.getElementById('prev')
+const next = document.getElementById('next')
+const prev = document.getElementById('prev')
 
 // let id = 1
 // async function nextId() {
@@ -8,7 +8,11 @@
 //   const json = await response.json()
 // }
 
-let id = 2
+let id = 870
+id++
+next.addEventListener('click', () => {
+  id++
+})
 fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
 
 .then(response => response.json())
