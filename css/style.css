@@ -1,0 +1,24 @@
+.card {
+  margin: 50px auto;
+  background-color: #FFEB3B;
+}
+
+.card-img-top {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+#id {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+li {
+  background: #FFEB3B !important;
+}
